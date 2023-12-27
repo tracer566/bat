@@ -1,0 +1,22 @@
+.header {
+  padding: 9px 0;
+  position: relative;
+
+  &__mute {
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 24px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: $text-white;
+  }
+
+  &__hashtag {
+    text-transform: none;
+    margin-right: 70px;
+    padding: 7px 14px;
+  }
+}

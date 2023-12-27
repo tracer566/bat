@@ -17,6 +17,9 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h1,
@@ -41,6 +44,7 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 button {
@@ -50,8 +54,6 @@ button {
   cursor: pointer;
 }
 
-.container {
-  max-width: 1240px;
-  margin-left: auto;
-  margin-right: auto;
+.main {
+  flex-grow: 1;
 }

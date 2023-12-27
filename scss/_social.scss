@@ -1,0 +1,20 @@
+.social {
+  display: flex;
+
+  &__icon {
+    margin-right: 20px;
+  }
+
+  &__icon:last-child {
+    margin-right: 0;
+  }
+
+  &__link svg {
+    color: $text-white;
+    transition: color .3s ease-out;
+  }
+
+  &__link svg:hover {
+    color: $btn-red
+  }
+}
