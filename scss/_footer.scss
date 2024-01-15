@@ -1,6 +1,9 @@
 .footer {
   padding: 10px 0;
   text-align: center;
+  position: relative;
+  z-index: 500;
+  height: 70px;
 
   &__list {
     display: flex;

@@ -14,6 +14,12 @@
     width: 280px;
     height: 184px;
   }
+
+  .pagination {
+    &__arrow {
+      margin-bottom: 0;
+    }
+  }
 }
 
 @media(max-width:768px) {
@@ -24,6 +30,12 @@
 
     &__link {
       font-size: 11px;
+    }
+  }
+
+  .pagination {
+    &__arrow {
+      margin-bottom: 0px;
     }
   }
 
@@ -141,8 +153,21 @@
     height: 104px;
   }
 
+  .slider-main {
+    height: 80%;
+  }
+
+  .pagination {
+    min-height: 80px;
+
+    &__arrow {
+      margin-bottom: 6px;
+    }
+  }
+
   .footer {
     padding: 10px 20px;
+    height: 50px;
 
     &__list {
       font-size: 7px;

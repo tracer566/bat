@@ -1,9 +1,17 @@
+.main {
+  position: relative;
+}
+
 .main_index {
   background: #000 url('../images/main-photo.jpg') center top /cover no-repeat;
   display: flex;
   align-items: center;
   padding-left: 180px;
 }
+
+// .main_slider {
+//   height: calc(100% - 120px);
+// }
 
 .logo {
   width: 329px;
