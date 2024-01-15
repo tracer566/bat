@@ -96,6 +96,7 @@
     text-align: center;
     align-items: stretch; //растягивает по ширине пункты меню
     transition: transform .3s ease-in-out;
+    z-index: 9999;
 
     &__list {
       flex-direction: column;
@@ -153,9 +154,9 @@
     height: 104px;
   }
 
-  .slider-main {
-    height: 80%;
-  }
+  // .slider-main {
+  //   height: 80%;
+  // }
 
   .pagination {
     min-height: 80px;

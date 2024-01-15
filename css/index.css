@@ -369,6 +369,10 @@ button {
   padding-left: 180px;
 }
 
+.main_slider {
+  height: calc(100% - 100px);
+}
+
 .logo {
   width: 329px;
   height: 235px;
@@ -385,7 +389,7 @@ button {
   text-align: center;
   position: relative;
   z-index: 500;
-  height: 70px;
+  height: 50px;
 }
 .footer__list {
   display: flex;
@@ -416,7 +420,7 @@ button {
 }
 
 .slider-video {
-  height: 70%;
+  height: 100%;
 }
 
 .pagination {
@@ -433,7 +437,7 @@ button {
   padding-right: 20px;
 }
 .pagination__arrow {
-  margin: 0 auto 20px;
+  margin: 0 auto;
   display: block;
   width: 0;
   height: 0;
@@ -526,6 +530,7 @@ button {
     text-align: center;
     align-items: stretch;
     transition: transform 0.3s ease-in-out;
+    z-index: 9999;
   }
   .navigation__list {
     flex-direction: column;
@@ -571,9 +576,6 @@ button {
   .logo {
     width: 200px;
     height: 104px;
-  }
-  .slider-main {
-    height: 80%;
   }
   .pagination {
     min-height: 80px;
