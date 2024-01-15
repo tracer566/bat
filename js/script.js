@@ -2,8 +2,9 @@ const burger = document.querySelector('.burger');
 const navigation = document.querySelector('.navigation');
 const closeBtn = document.querySelector('.navigation__close');
 const pagination = document.querySelector('.pagination');
-// const sliderThumbs = document.querySelector('.slider-thumbs');
 const closeSliderThumbs = document.querySelector('.pagination__arrow');
+// звук
+const mute = document.querySelector('.mute__checkbox');
 
 burger.addEventListener('click', () => {
   navigation.classList.add('navigation_active')

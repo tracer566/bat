@@ -370,7 +370,7 @@ button {
 }
 
 .main_slider {
-  height: calc(100% - 100px);
+  height: calc(100% - 90px);
 }
 
 .logo {
@@ -437,7 +437,7 @@ button {
   padding-right: 20px;
 }
 .pagination__arrow {
-  margin: 0 auto;
+  margin: 5px auto 10px;
   display: block;
   width: 0;
   height: 0;
