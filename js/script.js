@@ -22,15 +22,17 @@ try {
   // console.log('mute55: ', mute);
 
   let audio
-  if (document.location.pathname.substring(1) === 'index.html') {
-    audio = new Audio('audio/waterTower.mp3');
-  } else {
+  if (document.location.pathname.substring(1) === 'photo.html') {
     audio = new Audio('audio/nick-arundel-inner-demon.mp3');
+  } else {
+    audio = new Audio('audio/waterTower.mp3');
   }
 
   const checkMute = () => {
     if (mute.checked) {
-      audio.play();
+      audio.play().catch(() => {
+        mute.checked = false;
+      });
     } else {
       audio.pause();
     }
@@ -41,8 +43,6 @@ try {
   if (mute) {
     setTimeout(checkMute, 4000)
   }
-
-
 
   mute.addEventListener('change', checkMute);
 } catch {
