@@ -21,8 +21,10 @@ try {
   const mute = document.querySelector('.mute__checkbox');
   // console.log('mute55: ', mute);
 
+  // const params = new URLSearchParams(window.location.search).get('id');
+
   let audio
-  if (document.location.pathname.substring(1) === 'photo.html') {
+  if (window.location.search.substring(1) == 'id=1') {
     audio = new Audio('audio/nick-arundel-inner-demon.mp3');
   } else {
     audio = new Audio('audio/waterTower.mp3');
