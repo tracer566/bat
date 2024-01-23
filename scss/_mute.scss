@@ -17,7 +17,7 @@
     position: absolute;
     background-color: $btn-red;
     top: 1px;
-    right: 1px;
+    right: -22px;
     width: 22px;
     height: 22px;
     border-radius: 50%;
@@ -29,7 +29,7 @@
 
   &__label::before {
     background-image: url('../images/volume_off.svg');
-    left: -22px;
+    left: 1px;
   }
 
   &__label::after {
@@ -38,11 +38,11 @@
   }
 
   &__checkbox:checked+&__label:before {
-    left: 1px;
+    left: -22px;
   }
 
   &__checkbox:checked+&__label:after {
-    right: -22px;
+    right: 1px;
   }
 
 }

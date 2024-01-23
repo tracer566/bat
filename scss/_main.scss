@@ -11,6 +11,8 @@
 
 .main_slider {
   height: calc(100% - 90px);
+  overflow: hidden;
+  padding-bottom: 15px;
 }
 
 .logo {
