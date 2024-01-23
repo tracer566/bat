@@ -81,6 +81,12 @@
     justify-content: center;
   }
 
+  .slider-main__video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
   // мобильное меню
   .navigation {
     position: fixed;
