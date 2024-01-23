@@ -684,6 +684,7 @@ button {
             align-items: end;
     padding-left: 0;
     padding-bottom: 64px;
+    padding-top: 300px;
     background: -webkit-gradient(linear, left bottom, left top, color-stop(32.14%, rgba(0, 0, 0, 0.76)), color-stop(72.56%, rgba(255, 0, 0, 0))), url("../images/main-mob.jpg") center center/cover no-repeat;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.76) 32.14%, rgba(255, 0, 0, 0) 72.56%), url("../images/main-mob.jpg") center center/cover no-repeat;
   }
