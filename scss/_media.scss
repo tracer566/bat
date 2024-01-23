@@ -153,6 +153,10 @@
   .logo {
     width: 200px;
     height: 104px;
+    position: absolute;
+    bottom: 64px;
+    transform: translateX(-50%);
+    left: 50%;
   }
 
   // .slider-main {
