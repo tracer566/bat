@@ -690,19 +690,13 @@ button {
             align-items: end;
     padding-left: 0;
     padding-bottom: 64px;
-    padding-top: 300px;
+    padding-top: 350px;
     background: -webkit-gradient(linear, left bottom, left top, color-stop(32.14%, rgba(0, 0, 0, 0.76)), color-stop(72.56%, rgba(255, 0, 0, 0))), url("../images/main-mob.jpg") center center/cover no-repeat;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.76) 32.14%, rgba(255, 0, 0, 0) 72.56%), url("../images/main-mob.jpg") center center/cover no-repeat;
   }
   .logo {
     width: 200px;
     height: 104px;
-    position: absolute;
-    bottom: 64px;
-    -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-    left: 50%;
   }
   .pagination {
     min-height: 80px;
