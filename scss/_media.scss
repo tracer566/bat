@@ -90,19 +90,23 @@
   // мобильное меню
   .navigation {
     position: fixed;
-    left: 0;
+    left: -240px;
     top: 0;
     bottom: 0;
     width: 240px;
     background-color: $menu-color;
     flex-direction: column;
     padding-top: 90px;
-    transform: translateX(-240px);
+    transform: translateX(0px);
     padding-bottom: 20px;
     text-align: center;
     align-items: stretch; //растягивает по ширине пункты меню
     transition: transform .3s ease-in-out;
-    z-index: 9999;
+    z-index: 99999;
+
+    &_active {
+      transform: translateX(240px);
+    }
 
     &__list {
       flex-direction: column;
@@ -124,9 +128,6 @@
       background: transparent url('../images/close.svg') center center /contain no-repeat;
     }
 
-    &_active {
-      transform: translateX(0);
-    }
   }
 
   .burger {
@@ -139,8 +140,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
-
 
     & &_active {
       display: block;

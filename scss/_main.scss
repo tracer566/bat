@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   padding-left: 180px;
+  image-rendering: optimizeQuality; //убирает баг на firefox
 }
 
 .main_slider {
